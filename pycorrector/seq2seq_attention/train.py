@@ -11,7 +11,7 @@ from keras.callbacks import EarlyStopping
 
 sys.path.append('../..')
 
-from pycorrector.seq2seq_attention import config
+import config
 from pycorrector.seq2seq_attention.data_reader import build_dataset, read_vocab, str2id, padding, load_word_dict, \
     save_word_dict, GO_TOKEN, EOS_TOKEN
 from pycorrector.seq2seq_attention.evaluate import Evaluate
